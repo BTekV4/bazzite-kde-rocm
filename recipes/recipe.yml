@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: bazzite-gnome-rocm
+name: bazzite-kde-rocm
 description: This is my personal OS image with kernel downgraded for ROCm support.
 
-base-image: ghcr.io/ublue-os/bazzite-gnome
+base-image: ghcr.io/ublue-os/bazzite
 image-version: latest
 
 modules:
