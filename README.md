@@ -1,4 +1,4 @@
-# Bazzite GNOME ROCm
+# Bazzite KDE ROCm
 
 This project creates a customized Bazzite GNOME image with a downgraded kernel (6.13.7-107) to support ROCm on AMD hardware.
 
@@ -14,7 +14,7 @@ The image can be built using BlueBuild:
 bluebuild build
 ```
 
-This will create a local container image `localhost/bazzite-gnome-rocm:latest` that includes:
+This will create a local container image `localhost/bazzite-kde-rocm:latest` that includes:
 - Downgraded kernel to 6.13.7-107 (ROCm compatible)
 - Build tools needed for kernel modules
 
@@ -23,7 +23,7 @@ This will create a local container image `localhost/bazzite-gnome-rocm:latest` t
 To install the image, use the following command:
 
 ```bash
-sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/btekv4/bazzite-gnome-rocm:latest
+sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/btekv4/bazzite-kde-rocm:latest
 ```
 
 After reboot, you'll have a version of Bazzite with the ROCm-compatible kernel.
