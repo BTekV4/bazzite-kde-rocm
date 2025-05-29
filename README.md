@@ -103,7 +103,7 @@ If you are building this on Fedora Atomic, you can generate an offline ISO follo
 Note: Due to size constraints, ISOs cannot be freely hosted on GitHub; alternative hosting must be used for public distribution.
 
 ```bash
-sudo bluebuild generate-iso --iso-name bazzite-gnome-rocm.iso image ghcr.io/btekv4/bazzite-gnome-rocm:latest
+sudo bluebuild generate-iso --iso-name bazzite-kde-rocm.iso image ghcr.io/btekv4/bazzite-kde-rocm:latest
 ```
 
 ## Credits
