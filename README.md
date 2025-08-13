@@ -1,6 +1,6 @@
 # Bazzite KDE ROCm
 
-This project creates a customized Bazzite GNOME image with a downgraded kernel (6.13.7-107) to support ROCm on AMD hardware.
+This project creates a customized Bazzite KDE image with a downgraded kernel (6.13.7-107) to support ROCm on AMD hardware.
 
 ## Contents
 
@@ -61,6 +61,7 @@ Several stock kernel modules and third-party drivers were removed to simplify th
   - `kernel-modules`
   - `kernel-modules-extra`
   - `kernel-devel`
+  - `kernel-devel-matched`
   - `kernel-modules-core`
 - **Device modules**: 
   - `bmi260`, `kmod-bmi260`
@@ -79,6 +80,8 @@ Several stock kernel modules and third-party drivers were removed to simplify th
   - `kmod-vhba`, `vhba`
   - `kmod-xone`, `xone-kmod-common`
   - `kmod-zenergy`, `zenergy`
+  - `kmod-evdi`
+  - `displaylink`
 
 ### Installed Packages
 
@@ -90,6 +93,7 @@ A custom Bazzite kernel and its modules were installed to replace the removed st
 - [`kernel-modules-core-6.13.7-107.bazzite.fc42.x86_64.rpm`](https://github.com/bazzite-org/kernel-bazzite/releases)
 - [`kernel-modules-extra-6.13.7-107.bazzite.fc42.x86_64.rpm`](https://github.com/bazzite-org/kernel-bazzite/releases)
 - [`kernel-devel-6.13.7-107.bazzite.fc42.x86_64.rpm`](https://github.com/bazzite-org/kernel-bazzite/releases)
+- [`kernel-devel-matched-6.13.7-107.bazzite.fc42.x86_64.rpm`](https://github.com/bazzite-org/kernel-bazzite/releases)
 
 This ensures maximum compatibility with AMD GPUs using the ROCm stack.
 
